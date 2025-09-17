@@ -73,3 +73,6 @@ While this README file contains the overview of the app, there's actually a lot 
 - iOS app development
 - Android app development
 
+
+**Note**:
+Supabase project is currently inactive.
