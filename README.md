@@ -64,8 +64,8 @@ SSUS provides a low-pressure, gamified way to reconnect with people you’ve alr
 ---
 
 ## Final Thoughts
-While this README file contains the overview of the app, there's actually a lot more functionality actually embedded into this app, that I decided to incorporate after having friends test the app. I decided to stash the project for now, but ultimately I learned a lot and it was honestly really fun building this app!
-###Learnings
+While this README file contains the overview of the app, there's actually a lot more functionality actually embedded into this app that I decided to incorporate after having friends test the app. I decided to stash the project for now, but ultimately I learned a lot and it was really fun building this app!
+### Learnings
 - Flutter
 - Setting up email services through custom domains
 - Supabase (auth, database, edge functions, RLS, storage)
