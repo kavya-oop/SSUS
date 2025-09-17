@@ -53,10 +53,11 @@ SSUS provides a low-pressure, gamified way to reconnect with people you’ve alr
 
 ## How It Was Built (MVP)
 - **Frontend**: Mobile-based MVP with Flutter for cross-platform access.
-- **Backend**: Supabase for authentication, real-time database, and storage.  
+- **Backend**: Supabase for authentication, real-time database, and storage. Used edge functions to grab data/perform actions.
 - **Data Structure**:  
-  - Users table (profile info, IDs).  
-  - SUS table (tracks who sent interest, to whom, guess attempts, reveal status).  
+  - Users table (includes trackers to check if anyone is trying to ghost system)
+  - SUS table
+  - Match table
 - **Messaging Component**: Implemented using Supabase.  
 - **Search / Discovery**: Simple input for Instagram/LinkedIn handles rather than complex social graph matching.
 - **Emailing**: Used Resend's API connected to custom domain and Supabase edge functioons to send automated emails.
